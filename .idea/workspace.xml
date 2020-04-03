@@ -2,170 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59c54530-a629-4e71-8768-0d142044f821" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/catVSdog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/catVSdog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CatVsDog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/CatVsDog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CatVsDog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/CatVsDog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catVdog/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catVdog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/catVdog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catVdog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/catVdog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/500.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/uploadimg.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/uploadimg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/VGG.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/cnn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/data/small_data/test/cats/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/data/small_data/test/dogs/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/data/small_data/train/cats/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/data/small_data/train/dogs/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/data/small_data/validation/cats/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/data/small_data/validation/dogs/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/data/test/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/data/train/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/predict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/VGG/split_dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/cnn/CNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/cnn/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/cnn/data/test/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/cnn/data/train/cat.0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/cnn/data_show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/cnn/load_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/cnn/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/cnn/predict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/cnn/train.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_asyncio_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_bz2_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ctypes_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ctypes_test_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_decimal_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_elementtree_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_hashlib_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_lzma_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_msi_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_multiprocessing_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_overlapped_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_socket_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_sqlite3_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ssl_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testbuffer_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testcapi_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testconsole_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testmultiphase_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_tkinter_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/asadmin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/bundle_image" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/cfadmin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/chardetect.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/cq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/cwutil" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/cygdb.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/cython.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/cythonize.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/django-admin.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/django-admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/dynamodb_dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/dynamodb_load" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.6-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.6.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/elbadmin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/fetch_file" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/glacier" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/instance_events" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/jp.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/kill_instance" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/launch_instance" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/list_instances" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/lss3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/markdown_py.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/mturk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pbr.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.6-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.6.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyami_sendmail" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyexpat_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python36_d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python3_d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw_d.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/route53" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2html.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2html4.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2html5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2latex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2man.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2odt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2odt_prepstyles.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2pseudoxml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2s5.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2xetex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rst2xml.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/rstpep2html.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/s3put" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/sdbadmin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/select_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/sqlformat.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/sqlite3_d.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/taskadmin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/tcl86tg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/tk86tg.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/unicodedata_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/wheel.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/winsound_d.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/folder.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/houtai.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/index.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/net.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/r1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/r2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/r3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/result.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iamges/猫狗大战流程图.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -443,7 +293,7 @@
       <updated>1555125719575</updated>
       <workItem from="1585920810688" duration="3839000" />
       <workItem from="1585925856712" duration="299000" />
-      <workItem from="1585926774650" duration="8601000" />
+      <workItem from="1585926774650" duration="9504000" />
     </task>
     <servers />
   </component>
