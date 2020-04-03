@@ -6,4 +6,5 @@ services:
     ports:
     - 8000:8000
     restart: always
+    command: python manage.py runserver 0:8000
     container_name: catvsdog
