@@ -10,4 +10,4 @@ RUN pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple &&
 python manage.py makemigrations && \
 python manage.py migrate
 
-CMD python manage.py runserver
+CMD python manage.py runserver 0:8000
