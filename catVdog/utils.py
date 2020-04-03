@@ -1,8 +1,8 @@
 from django.conf import settings
+from keras.models import load_model
 import os
 import cv2
 import numpy as np
-
 
 ROWS = 150
 COLS = 150
@@ -19,13 +19,13 @@ def predict():
     filename = os.listdir(dir_path)[0]
     file_path = os.path.join(dir_path, filename)
     image = read_image(file_path)
+    model_path = os.path.join(settings.BASE_DIR, 'model.h5')
+    model = load_model(model_path)
 
     data = np.ndarray((1, ROWS, COLS, CHANNELS), dtype=np.uint8)
     data[0] = image
     test = data
-
-    predictions = settings.MODEL.predict(test, verbose=0)
-
+    predictions = model.predict(test, verbose=0)
     results = {}
     if predictions[0, 0] >= 0.5:
         print('I am {:.2%} sure this is a Dog'.format(predictions[0][0]))
