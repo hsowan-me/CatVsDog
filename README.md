@@ -31,6 +31,12 @@ python manage.py runserver
 
 ```
 
+## Known issues
+
+* cv2 errors during manual start
+
+Solved: https://blog.csdn.net/yuanlulu/article/details/79017116
+
 ## Contact
 
 hsowan.me@gmail.com
