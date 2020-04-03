@@ -1,9 +1,7 @@
 from django.conf import settings
-from keras.models import load_model
 import os
 import cv2
 import numpy as np
-import tensorflow as tf
 
 
 ROWS = 150
@@ -22,16 +20,11 @@ def predict():
     file_path = os.path.join(dir_path, filename)
     image = read_image(file_path)
 
-    model_path = os.path.join(settings.BASE_DIR, 'model.h5')
-    graph = tf.get_default_graph()
-    model = load_model(model_path)
-
     data = np.ndarray((1, ROWS, COLS, CHANNELS), dtype=np.uint8)
     data[0] = image
     test = data
 
-    with graph.as_default():
-        predictions = model.predict(test, verbose=0)
+    predictions = settings.MODEL.predict(test, verbose=0)
 
     results = {}
     if predictions[0, 0] >= 0.5:

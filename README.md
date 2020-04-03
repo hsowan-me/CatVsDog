@@ -41,6 +41,8 @@ Solved: https://blog.csdn.net/yuanlulu/article/details/79017116
 
 Solved: https://blog.csdn.net/Butertfly/article/details/81292358
 
+It seems that model should not be load twice.
+
 ## Contact
 
 hsowan.me@gmail.com
