@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  catvsdog:
+    build: .
+    image: catvsdog:latest
+    ports:
+    - 8000:8000
+    restart: always
+    container_name: catvsdog

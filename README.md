@@ -10,12 +10,21 @@ Online demo: https://catvsdog.cloudevops.cn
 
 ## Quick Start
 
+### Docker
+
+```shell script
+docker-compose up -d
+
+```
+
+### Manual
+
 ```shell script
 # Install requirements
 pip install -r requirements.txt
 
 # Init db
-python manage.py makemigration && python3 manage.py migrate
+python manage.py makemigrations && python manage.py migrate
 
 # Runserver
 python manage.py runserver
