@@ -37,6 +37,10 @@ python manage.py runserver
 
 Solved: https://blog.csdn.net/yuanlulu/article/details/79017116
 
+* ValueError: Tensor Tensor xxx is not an element of of this graph during docker start
+
+Solved: https://blog.csdn.net/Butertfly/article/details/81292358
+
 ## Contact
 
 hsowan.me@gmail.com
