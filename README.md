@@ -2,12 +2,6 @@
 
 Fork from https://github.com/Missyanc/CatVsDog
 
-## Demo
-
-<video controls="" preload="none">
-    <source src="/demo.mov">
-</video>
-
 ## Environment
 
 * python3.6+
