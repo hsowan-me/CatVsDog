@@ -83,15 +83,17 @@
 
 <div class="title">我知道你上传的图片是猫还是狗</div>
 
-
 <form class="picture_form" method="POST" enctype="multipart/form-data">
 <input type="file" name="img">
 <button class="load_button" type="submit">上传图片</button>
 </form>
-<div class="result">
-    <a href="http://127.0.0.1:8000/result/">查看结果</a>
-</div>
-<div style="margin-top: 2   0px;text-align: center">
+{% if uploaded %}
+    <p style="text-align: center; color: green;">上传成功</p>
+    <div class="result">
+        <a href="/result/">查看结果</a>
+    </div>
+{% endif %}
+<div style="margin-top: 20px; text-align: center">
     <table>
         <tr>
             <a class="cat">猫</a>

@@ -25,7 +25,7 @@ SECRET_KEY = '^==r6$+2*^s1b1q7cc3o&sl*7%c^p5l^i!^%6=^i$2t^w7p0ll'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -124,5 +124,7 @@ STATIC_URL = '/static/'
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static'),
 # ]
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media').replace('\\', '/')     #设置静态文件路径为主目录下的media文件夹
-MEDIA_URL = '/media/'                                                 #url映射
+# 设置静态文件路径为主目录下的media文件夹
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# url映射
+MEDIA_URL = '/media/'

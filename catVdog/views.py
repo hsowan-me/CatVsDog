@@ -1,28 +1,35 @@
 import os
+
+from django.conf import settings
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_exempt
-from catVdog.models import IMG
-from Include.cnn.predict import predict
+from catVdog.models import Img
+from catVdog.utils import predict
 
-# Create your views here.
-# 添加 index 函数，返回 index.html 页面
+
 def index(request):
     return render(request, 'index.html')
 
-@csrf_exempt
-def uploadImg(request):
-    for file in os.listdir("E:/PycharmProjects/CatVsDog/media/img/"):
-        targetFile = os.path.join("E:/PycharmProjects/CatVsDog/media/img/", file)
-        if os.path.isfile(targetFile):
-            os.remove(targetFile)
-    if request.method == 'POST':
-        new_img = IMG(
-            img=request.FILES.get('img'),
-            name=request.FILES.get('img').name
-        )
-        new_img.save()
-    return render(request, 'uploadimg.html')
 
-def result (request):
-    result = predict()
-    return render(request, 'result.html', {"data": result})
+@csrf_exempt
+def upload_img(request):
+    dir_path = os.path.join(settings.MEDIA_ROOT, 'img')
+    for file in os.listdir(dir_path):
+        target_file = os.path.join(dir_path, file)
+        if os.path.isfile(target_file):
+            os.remove(target_file)
+    uploaded = False
+    if request.method == 'POST':
+        file = request.FILES.get('img', None)
+        if file:
+            new_img = Img(
+                img=request.FILES.get('img'),
+                name=request.FILES.get('img').name
+            )
+            new_img.save()
+            uploaded = True
+    return render(request, 'uploadimg.html', {'uploaded': uploaded})
+
+
+def result(request):
+    return render(request, 'result.html', {"data": predict()})
